@@ -30,7 +30,7 @@ public class MainApp {
          System.out.println("Email = "+user.getEmail());
          System.out.println();
       }
-      User user = userService.getUserByModelandSeries("bmw",2222);
+      User user = userService.getUserByModelandSeries("lada",3333);
       System.out.println("Id = " + user.getId());
       System.out.println("First Name = " + user.getFirstName());
       System.out.println("Last Name = " + user.getLastName());
